@@ -1,0 +1,388 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1381802300,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "user sets base URI of JSON server",
+            "match": {
+              "location": "steps.MyStepdefs.userPerformsGETOperationFor()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-03-19T08:19:10.932Z",
+        "line": 5,
+        "name": "GET operation",
+        "description": "",
+        "id": "methods-on-json-server;get-operation",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2843365700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user performs GET for post  number \"1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 36
+                }
+              ],
+              "location": "steps.MyStepdefs.userPerformsGETForPostNumber(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1997500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "author name must say \"iwannadie\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "iwannadie",
+                  "offset": 22
+                }
+              ],
+              "location": "steps.MyStepdefs.authorNameMustSay(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3997500,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "user sets base URI of JSON server",
+            "match": {
+              "location": "steps.MyStepdefs.userPerformsGETOperationFor()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-03-19T08:19:15.316Z",
+        "line": 15,
+        "name": "Adding new post using POST Method",
+        "description": "",
+        "id": "methods-on-json-server;adding-new-post-using-post-method;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1999400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user performs POST for creating post",
+            "match": {
+              "location": "steps.MyStepdefs.userPerformsPOSTForCreatingPost()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 140921300,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "new \"15\",\"Vignesh\" and \"RoaldDahl\" are passed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"15\"",
+                  "offset": 4
+                },
+                {
+                  "val": "\"Vignesh\"",
+                  "offset": 9
+                },
+                {
+                  "val": "\"RoaldDahl\"",
+                  "offset": 23
+                }
+              ],
+              "location": "steps.MyStepdefs.newAndArePassed(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 998900,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "new post has been created",
+            "match": {
+              "location": "steps.MyStepdefs.newPostMustBeCreated()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1998600,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "user sets base URI of JSON server",
+            "match": {
+              "location": "steps.MyStepdefs.userPerformsGETOperationFor()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-03-19T08:19:15.501Z",
+        "line": 16,
+        "name": "Adding new post using POST Method",
+        "description": "",
+        "id": "methods-on-json-server;adding-new-post-using-post-method;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1998400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user performs POST for creating post",
+            "match": {
+              "location": "steps.MyStepdefs.userPerformsPOSTForCreatingPost()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 51969500,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "new \"21\",\"21 Savage\" and \"YG\" are passed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"21\"",
+                  "offset": 4
+                },
+                {
+                  "val": "\"21 Savage\"",
+                  "offset": 9
+                },
+                {
+                  "val": "\"YG\"",
+                  "offset": 25
+                }
+              ],
+              "location": "steps.MyStepdefs.newAndArePassed(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2997500,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "new post has been created",
+            "match": {
+              "location": "steps.MyStepdefs.newPostMustBeCreated()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 999600,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "user sets base URI of JSON server",
+            "match": {
+              "location": "steps.MyStepdefs.userPerformsGETOperationFor()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-03-19T08:19:15.575Z",
+        "line": 17,
+        "name": "Adding new post using POST Method",
+        "description": "",
+        "id": "methods-on-json-server;adding-new-post-using-post-method;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2998500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user performs POST for creating post",
+            "match": {
+              "location": "steps.MyStepdefs.userPerformsPOSTForCreatingPost()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 49971900,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "new \"50\",\"no\" and \"icant\" are passed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"50\"",
+                  "offset": 4
+                },
+                {
+                  "val": "\"no\"",
+                  "offset": 9
+                },
+                {
+                  "val": "\"icant\"",
+                  "offset": 18
+                }
+              ],
+              "location": "steps.MyStepdefs.newAndArePassed(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "new post has been created",
+            "match": {
+              "location": "steps.MyStepdefs.newPostMustBeCreated()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1999100,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "user sets base URI of JSON server",
+            "match": {
+              "location": "steps.MyStepdefs.userPerformsGETOperationFor()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-03-19T08:19:15.641Z",
+        "line": 24,
+        "name": "Deleting a post using DELETE Method",
+        "description": "",
+        "id": "methods-on-json-server;deleting-a-post-using-delete-method;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1998700,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user performs DELETE for deleting post",
+            "match": {
+              "location": "steps.MyStepdefs.userPerformsDELETEForDeletingPost()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 32981300,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "post with \"15\" must be deleted",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"15\"",
+                  "offset": 10
+                }
+              ],
+              "location": "steps.MyStepdefs.postWithMustBeDeleted(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Methods on JSON server",
+    "description": "",
+    "id": "methods-on-json-server",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/feature/feature1.feature",
+    "tags": []
+  }
+]
