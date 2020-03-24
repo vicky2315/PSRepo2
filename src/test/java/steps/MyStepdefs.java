@@ -51,6 +51,7 @@ public class MyStepdefs {
     @Then("author name must say {string}")
     public void authorNameMustSay(String auth) {
         System.out.println("Correct author");
+        System.out.print("Trial");
     }
 
     @When("user performs GET for post  number {string}")
